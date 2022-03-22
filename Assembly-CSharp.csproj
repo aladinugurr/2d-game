@@ -60,10 +60,11 @@
     <Compile Include="Assets\KrishnaPalacio\MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio\Scripts\PropVariants\FPCattail.cs" />
     <Compile Include="Assets\KrishnaPalacio\MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio\Scripts\PropVariants\FPGrassLong.cs" />
     <Compile Include="Assets\KrishnaPalacio\MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio\Scripts\PropVariants\FPCreeper.cs" />
+    <Compile Include="Assets\Scripts\dusman.cs" />
     <Compile Include="Assets\KrishnaPalacio\MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio\Scripts\PropVariants\FPPillar.cs" />
     <Compile Include="Assets\KrishnaPalacio\MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio\Scripts\PropVariants\FPTree.cs" />
     <Compile Include="Assets\KrishnaPalacio\MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio\Scripts\CameraController.cs" />
-    <Compile Include="Assets\Scripts\dusman.cs" />
+    <Compile Include="Assets\Scripts\dusma-scripts\dusmanControl.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\KrishnaPalacio\MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio\Sprites\Tileset\River\Waterfall\WaterfalTilesInfo.txt" />
