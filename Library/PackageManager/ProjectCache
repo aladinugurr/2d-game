@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637832792364507693
-    m_Hash: 257788653
+      ticks: 637835687406908112
+    m_Hash: 4036849944
   m_LockFileStatus:
     m_FilePath: C:/mobile2d/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637832792661060436
-    m_Hash: 3402760274
+      ticks: 637835687709660153
+    m_Hash: 891706335
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -641,12 +641,12 @@ m_PackageAssets:
         url: 
         revision: 
         path: 
-    - packageId: com.unity.collab-proxy@1.15.12
+    - packageId: com.unity.collab-proxy@1.15.13
       testable: 0
       isDirectDependency: 1
-      version: 1.15.12
+      version: 1.15.13
       source: 1
-      resolvedPath: C:\mobile2d\Library\PackageCache\com.unity.collab-proxy@1.15.12
+      resolvedPath: C:\mobile2d\Library\PackageCache\com.unity.collab-proxy@1.15.13
       assetPath: Packages/com.unity.collab-proxy
       name: com.unity.collab-proxy
       displayName: Version Control
@@ -697,12 +697,14 @@ m_PackageAssets:
         - 1.14.9
         - 1.14.12
         - 1.14.13
+        - 1.14.15
         - 1.15.1
         - 1.15.4
         - 1.15.7
         - 1.15.9
         - 1.15.12
         - 1.15.13
+        - 1.15.15
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -716,6 +718,7 @@ m_PackageAssets:
         compatible:
         - 1.15.12
         - 1.15.13
+        - 1.15.15
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -726,7 +729,7 @@ m_PackageAssets:
         - 2.1.0-preview.3
         - 2.1.0-preview.5
         - 2.1.0-preview.6
-        verified: 1.15.13
+        verified: 1.15.15
       dependencies:
       - name: com.unity.services.core
         version: 1.0.1
@@ -761,13 +764,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637789721280000000
+      datePublishedTicks: 637807003040000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-        revision: 5ca1fd4ca9f999e087d19e98afaf99905a582771
+        revision: 825774911ad2d1440ac844c9be1ae2c9b5dc7966
         path: 
     - packageId: com.unity.ide.rider@2.0.7
       testable: 0
@@ -854,7 +857,7 @@ m_PackageAssets:
         version: 1.1.1
       resolvedDependencies:
       - name: com.unity.test-framework
-        version: 1.1.29
+        version: 1.1.31
       - name: com.unity.ext.nunit
         version: 1.0.6
       - name: com.unity.modules.imgui
@@ -945,7 +948,7 @@ m_PackageAssets:
         version: 1.1.9
       resolvedDependencies:
       - name: com.unity.test-framework
-        version: 1.1.29
+        version: 1.1.31
       - name: com.unity.ext.nunit
         version: 1.0.6
       - name: com.unity.modules.imgui
@@ -973,12 +976,12 @@ m_PackageAssets:
         url: 
         revision: 
         path: 
-    - packageId: com.unity.ide.vscode@1.2.4
+    - packageId: com.unity.ide.vscode@1.2.5
       testable: 0
       isDirectDependency: 1
-      version: 1.2.4
+      version: 1.2.5
       source: 1
-      resolvedPath: C:\mobile2d\Library\PackageCache\com.unity.ide.vscode@1.2.4
+      resolvedPath: C:\mobile2d\Library\PackageCache\com.unity.ide.vscode@1.2.5
       assetPath: Packages/com.unity.ide.vscode
       name: com.unity.ide.vscode
       displayName: Visual Studio Code Editor
@@ -1038,13 +1041,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637660806170000000
+      datePublishedTicks: 637800255360000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
-        url: git+https://github.com/Unity-Technologies/com.unity.ide.vscode.git
-        revision: 1f4f605d5c988cb610c372b5c5216c46cc8f5d30
+        url: https://github.com/Unity-Technologies/com.unity.ide.vscode.git
+        revision: b0740c80bfc2440527c317109f7c3d9100132722
         path: 
     - packageId: com.unity.mobile.android-logcat@1.2.3
       testable: 0
@@ -1124,12 +1127,12 @@ m_PackageAssets:
         url: git+https://github.com/Unity-Technologies/com.unity.mobile.logcat.git
         revision: 59c5911d3f6465a7ecf9b03c8ad8ed681b549613
         path: 
-    - packageId: com.unity.mobile.notifications@1.4.2
+    - packageId: com.unity.mobile.notifications@2.0.0
       testable: 0
       isDirectDependency: 1
-      version: 1.4.2
+      version: 2.0.0
       source: 1
-      resolvedPath: C:\mobile2d\Library\PackageCache\com.unity.mobile.notifications@1.4.2
+      resolvedPath: C:\mobile2d\Library\PackageCache\com.unity.mobile.notifications@2.0.0
       assetPath: Packages/com.unity.mobile.notifications
       name: com.unity.mobile.notifications
       displayName: Mobile Notifications
@@ -1238,20 +1241,20 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637635896040000000
+      datePublishedTicks: 637799290320000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
-        url: git+https://github.com/Unity-Technologies/com.unity.mobile.notifications.git
-        revision: 6e1b6e1acbe5d585c8d9557e82a9b2b274aecfa5
+        url: https://github.com/Unity-Technologies/com.unity.mobile.notifications.git
+        revision: ce9c2a53ee29f96377480d6beac512b9043f6194
         path: 
-    - packageId: com.unity.test-framework@1.1.29
+    - packageId: com.unity.test-framework@1.1.31
       testable: 0
       isDirectDependency: 1
-      version: 1.1.29
+      version: 1.1.31
       source: 1
-      resolvedPath: C:\mobile2d\Library\PackageCache\com.unity.test-framework@1.1.29
+      resolvedPath: C:\mobile2d\Library\PackageCache\com.unity.test-framework@1.1.31
       assetPath: Packages/com.unity.test-framework
       name: com.unity.test-framework
       displayName: Test Framework
@@ -1337,13 +1340,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637647922650000000
+      datePublishedTicks: 637804266210000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
-        url: git+https://github.com/Unity-Technologies/com.unity.test-framework.git
-        revision: dac53542acdab7a12e9ebf111ac588d0e53cf483
+        url: https://github.com/Unity-Technologies/com.unity.test-framework.git
+        revision: 438b0defc147c9be5c969ca79ff03a722b4590ed
         path: 
     - packageId: com.unity.textmeshpro@3.0.6
       testable: 0
@@ -3503,9 +3506,21 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 0.1.5-preview
+        - 0.1.6-preview
+        - 0.1.9-preview
+        - 1.0.0
+        - 1.0.5
         - 1.0.6
+        - 2.0.2
         compatible:
+        - 0.1.5-preview
+        - 0.1.6-preview
+        - 0.1.9-preview
+        - 1.0.0
+        - 1.0.5
         - 1.0.6
+        - 2.0.2
         verified: 1.0.6
       dependencies: []
       resolvedDependencies: []
@@ -3525,7 +3540,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637429759280000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -3558,8 +3573,24 @@ m_PackageAssets:
       versions:
         all:
         - 1.0.1
+        - 1.1.0-pre.7
+        - 1.1.0-pre.8
+        - 1.1.0-pre.9
+        - 1.1.0-pre.10
+        - 1.1.0-pre.11
+        - 1.1.0-pre.41
+        - 1.1.0-pre.69
+        - 1.2.0
         compatible:
         - 1.0.1
+        - 1.1.0-pre.7
+        - 1.1.0-pre.8
+        - 1.1.0-pre.9
+        - 1.1.0-pre.10
+        - 1.1.0-pre.11
+        - 1.1.0-pre.41
+        - 1.1.0-pre.69
+        - 1.2.0
         verified: 1.0.1
       dependencies:
       - name: com.unity.modules.unitywebrequest
@@ -3580,7 +3611,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637604883250000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -3688,7 +3719,39 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 1.0.9-preview.1
+        - 1.0.9-preview.2
+        - 1.0.10-preview
+        - 1.0.11-preview.1
+        - 1.1.0-preview.1
+        - 1.1.0-preview.2
+        - 1.2.0-preview.1
+        - 2.0.1
+        - 2.0.2
+        - 2.1.0
+        - 2.1.1
+        - 2.1.2
+        - 3.0.0
+        - 3.0.1
+        - 4.0.0
+        - 4.0.1
+        - 4.0.2
+        - 4.0.3
+        - 4.0.4
         - 4.1.0
+        - 5.0.0-pre.1
+        - 5.0.0-pre.2
+        - 5.0.0
+        - 6.0.0-pre.2
+        - 6.0.0-pre.3
+        - 6.0.0-pre.4
+        - 6.0.0
+        - 6.0.1
+        - 6.0.2
+        - 6.0.3
+        - 7.0.0-pre.3
+        - 7.0.0-pre.4
+        - 7.0.0
         compatible:
         - 4.1.0
         verified: 4.1.0
@@ -3724,7 +3787,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637781310790000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -3753,7 +3816,27 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 1.0.0-preview.1
+        - 1.0.0-preview.4
+        - 2.0.1
+        - 2.0.2
+        - 2.0.3
+        - 2.0.4
+        - 2.0.5
+        - 2.0.6
+        - 2.1.0
+        - 2.1.1
+        - 3.0.0
+        - 3.0.1
+        - 3.0.2
+        - 4.0.0
+        - 4.0.1
         - 4.0.2
+        - 5.0.0-pre.1
+        - 5.0.0-pre.2
+        - 5.0.0
+        - 5.0.1
+        - 5.0.2
         compatible:
         - 4.0.2
         verified: 4.0.2
@@ -3774,7 +3857,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637637511040000000
       documentationUrl: 
       hasRepository: 1
       repository:
