@@ -11,9 +11,11 @@ GameObject:
   - component: {fileID: 3018835226207433250}
   - component: {fileID: 2146880300434895389}
   - component: {fileID: 7724775602384141880}
+  - component: {fileID: -3376844838362590713}
+  - component: {fileID: -8141833730763596393}
   m_Layer: 0
   m_Name: dusman-2
-  m_TagString: Player
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -95,3 +97,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55249812d1ce7a04588694b80aed0d55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-3376844838362590713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4752847739347560681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecf7c3f686bb4ce4eb889830059d9981, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &-8141833730763596393
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4752847739347560681}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.4, y: 1.59, z: 0.2}
+  m_Center: {x: 0, y: -0.795, z: 0}

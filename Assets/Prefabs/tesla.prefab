@@ -11,9 +11,11 @@ GameObject:
   - component: {fileID: 8218321587432539703}
   - component: {fileID: 7464442804128301041}
   - component: {fileID: -617312235412246139}
+  - component: {fileID: -8334772338204126219}
+  - component: {fileID: 8631138726761946107}
   m_Layer: 0
   m_Name: tesla
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26,7 +28,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4652294421326347552}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.1063, z: -1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.4918, y: 0.5743598, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -95,3 +97,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55249812d1ce7a04588694b80aed0d55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-8334772338204126219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4652294421326347552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecf7c3f686bb4ce4eb889830059d9981, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &8631138726761946107
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4652294421326347552}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8, y: 4.2, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}

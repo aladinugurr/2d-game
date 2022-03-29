@@ -716,7 +716,6 @@ m_PackageAssets:
         - 2.1.0-preview.5
         - 2.1.0-preview.6
         compatible:
-        - 1.15.12
         - 1.15.13
         - 1.15.15
         - 2.0.0-preview.6
@@ -1217,7 +1216,7 @@ m_PackageAssets:
         - 1.4.1
         - 1.4.2
         - 2.0.0
-        verified: 1.4.2
+        verified: 2.0.0
       dependencies:
       - name: com.unity.modules.androidjni
         version: 1.0.0
@@ -1305,8 +1304,6 @@ m_PackageAssets:
         - 2.0.1-pre.12
         - 2.0.1-pre.18
         compatible:
-        - 1.1.29
-        - 1.1.30
         - 1.1.31
         - 2.0.1-pre.12
         - 2.0.1-pre.18
@@ -3868,4 +3865,4 @@ m_PackageAssets:
   m_LocalPackages:
     m_LocalFileStatus: []
 m_ProjectPath: C:/mobile2d/Packages
-m_EditorVersion: 2020.3.30f1 (1fb1bf06830e)
+m_EditorVersion: 2020.3.31f1 (6b54b7616050)

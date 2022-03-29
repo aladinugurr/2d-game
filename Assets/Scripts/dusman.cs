@@ -9,6 +9,10 @@ public class dusman : MonoBehaviour
     public GameObject enemy2;
     public GameObject tesla;
 
+    GameObject[] enemies;
+    public GameObject enemy;
+        
+
     void Start()
     {
       
@@ -16,11 +20,22 @@ public class dusman : MonoBehaviour
         Instantiate(enemy2, new Vector3(6f, 1f,-1f), Quaternion.identity);
         Instantiate(tesla, new Vector3(6f, -1f,-1f), Quaternion.identity);
 
+        enemies = GameObject.FindGameObjectsWithTag("enemy");
+        enemy = GameObject.FindGameObjectWithTag("enemy");
+
+        //works
+        //for (int i = 0; i < enemies.Length; i++)
+        //{
+        //    Debug.Log(enemy);
+            
+        //}
+
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-      
+       
     }
 }
